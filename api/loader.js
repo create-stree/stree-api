@@ -3,6 +3,6 @@ export default function handler(req, res) {
   res.setHeader("Access-Control-Allow-Origin", "*")
 
   res.send(`
-loadstring(game:HttpGet("https://raw.githubusercontent.com/create-stree/STREE-HUB/refs/heads/main/Loader/Main.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/create-stree/STREE-HUB/refs/heads/main/Loader/Main.luau", true))()
 `)
 }
